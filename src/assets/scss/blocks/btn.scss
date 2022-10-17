@@ -1,0 +1,35 @@
+@mixin btn-color($color) {
+    background-color: $color;
+    box-shadow: 0 7px 17px -10px rgba($color, .3);
+
+        &:hover {
+            background-color: darken($color, 10%);
+        }
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.12em 2.1em;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: $white;
+    text-decoration: none;
+
+    background-color: $secondary;
+    border: none;
+    cursor: pointer;
+    border-radius: 3em;
+
+    transition: background-color .2s linear;
+
+    &--red {
+        @include btn-color($red);
+    }
+    &--blue {
+        @include btn-color($blue);
+    }
+}
