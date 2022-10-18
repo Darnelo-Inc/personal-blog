@@ -24,6 +24,8 @@ body {
 
 /* Blocks */
 @import "blocks/header";
+@import "blocks/nav";
+@import "blocks/subnav";
 @import "blocks/sidebar";
 @import "blocks/main";
 @import "blocks/container";
@@ -31,6 +33,9 @@ body {
 @import "blocks/profile";
 @import "blocks/btn";
 @import "blocks/social";
+@import "blocks/search";
+@import "blocks/stories";
+@import "blocks/add-post";
 
 
 
