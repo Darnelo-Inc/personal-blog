@@ -3,6 +3,8 @@
     box-shadow: 0 7px 17px -10px rgba($color, .3);
 
         &:hover {
+            text-decoration: none;
+            
             background-color: darken($color, 10%);
         }
 }
@@ -29,7 +31,16 @@
     &--red {
         @include btn-color($red);
     }
+    
     &--blue {
         @include btn-color($blue);
+    }
+    
+    &--rounded {
+        border-radius: .41rem;
+    }
+    
+    &--small {
+        padding: .7em 1.25em; 
     }
 }
