@@ -43,4 +43,8 @@
     &--small {
         padding: .7em 1.25em; 
     }
+    
+    &:hover {
+        text-decoration: none;
+    }
 }
