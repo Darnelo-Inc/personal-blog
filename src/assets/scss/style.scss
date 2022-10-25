@@ -13,6 +13,10 @@ body {
     line-height: 1.5;
 
     background-color: #181818;
+    
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 *,
@@ -53,6 +57,7 @@ a {
 @import "blocks/work";
 @import "blocks/tags";
 @import "blocks/cabinet";
+@import "blocks/modal";
 
 
 

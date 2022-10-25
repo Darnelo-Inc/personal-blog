@@ -2,7 +2,7 @@
     background-color: $color;
     box-shadow: 0 7px 17px -10px rgba($color, .3);
 
-        &:hover {
+        &:hover, &:focus {
             text-decoration: none;
             
             background-color: darken($color, 10%);

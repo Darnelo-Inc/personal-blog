@@ -26,6 +26,8 @@
     transition: background-color .2s linear;
     
     &:hover {
+        text-decoration: none;
+        
         background-color: lighten(#0D0D0D, 3.5%);
     }
     
