@@ -4,7 +4,7 @@
     left: 0;
     z-index: $z-index-modal;
     
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -19,10 +19,14 @@
     
     max-width: 500px;
     width: 100%;
-    padding: 8rem 8rem 2.5rem;
+    padding: 8rem;
     
     background-color: $primary;
     border-radius: 5px;
+    
+    &--contact {
+        padding-bottom: 2.5rem;
+    }
 }
 
 .modal__close {

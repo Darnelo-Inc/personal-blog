@@ -9,6 +9,10 @@
 
     background-color: #0D0D0D;
     box-shadow: 0 5px 22px rgba($black, .25);
+    
+    @include breakpoint($tablet-bp) {
+        width: 100%;
+    }
 }
 
 .header__left {

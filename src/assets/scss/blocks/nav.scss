@@ -1,5 +1,24 @@
+.nav {
+    &--mobile {
+        display: none;
+    }
+    
+     @include breakpoint($tablet-bp) {
+        display: none;
+         
+         &--mobile {
+             display: block;
+             margin: 3rem 0;
+         }
+    }
+}
+
 .nav__list {
     display: flex;
+    
+    @include breakpoint($tablet-bp) {
+        flex-direction: column;
+    }
 }
 
 .nav__item {
@@ -18,9 +37,19 @@
     &:focus {
         outline: none;
     }
+    
+    @include breakpoint($tablet-bp) {
+        
+         &:hover {
+            .nav__link {
+                background: none;
+            }
+        }
+    
+    }
 }
 
-.nav__link{
+.nav__link {
     display: block;
     padding: 1.35rem;
 
@@ -54,5 +83,12 @@
     
     &:hover {
         text-decoration: none;
+    }
+    
+    @include breakpoint($tablet-bp) {
+        padding-left: 0;
+        padding-right: 0;
+        
+        font-size: 1.6rem;
     }
 }

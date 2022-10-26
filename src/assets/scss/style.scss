@@ -1,5 +1,6 @@
 
 @import "vars";
+@import "mixins";
 @import "vendor/reset";
 
 html {
@@ -14,7 +15,8 @@ body {
 
     background-color: #181818;
     
-    &.no-scroll {
+    &.no-scroll,
+    &.show-sidebar {
         overflow: hidden;
     }
 }
@@ -37,6 +39,7 @@ a {
 /* Blocks */
 @import "blocks/header";
 @import "blocks/nav";
+@import "blocks/burger";
 @import "blocks/subnav";
 @import "blocks/sidebar";
 @import "blocks/main";
