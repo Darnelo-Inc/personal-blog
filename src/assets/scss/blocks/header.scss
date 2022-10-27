@@ -12,15 +12,24 @@
     
     @include breakpoint($tablet-bp) {
         width: 100%;
+        justify-content: space-between;
     }
 }
 
 .header__left {
     width: 60%;
+    
+    @include breakpoint($tablet-bp) {
+        width: 50%;
+    }
 }
 
 .header__right {
     display: flex;
     justify-content: flex-end;
     width: 40%;
+    
+    @include breakpoint($tablet-bp) {
+        width: 50%;
+    }
 }
