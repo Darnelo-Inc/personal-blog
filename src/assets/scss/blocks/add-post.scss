@@ -13,14 +13,14 @@
 
 .add-post__form {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .add-post__textarea {
     display: block;
     flex-grow: 1;
     width: 75%;
-    height: 2.6rem;
+    height: 3.4rem;
 
     font-family: inherit;
     font-size: 1.5rem;

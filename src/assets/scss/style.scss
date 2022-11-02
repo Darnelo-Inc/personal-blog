@@ -15,9 +15,14 @@ body {
 
     background-color: #181818;
     
-    &.no-scroll,
-    &.show-sidebar {
+    &.no-scroll {
         overflow: hidden;
+    }
+    
+    @include breakpoint($tablet-bp) {
+        &.show-sidebar {
+            overflow: hidden;
+        }
     }
 }
 
