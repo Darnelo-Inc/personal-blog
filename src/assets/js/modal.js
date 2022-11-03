@@ -49,12 +49,3 @@ modal.forEach(item => {
         closeModal(currentModal)
     })
 })
-
-
-
-
-
-
-
-
-

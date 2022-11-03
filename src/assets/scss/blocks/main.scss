@@ -4,4 +4,8 @@
     @include breakpoint($tablet-bp) {
         padding: 7rem 0 5rem;
     }
+    
+    @include breakpoint($mobile-bp) {
+        padding: 7rem 0 2rem;
+    }
 }
