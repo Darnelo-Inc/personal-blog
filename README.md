@@ -1,6 +1,6 @@
 # personal-blog
 
-[Adaptive multipage website with modal windows]()
+[Adaptive multi-page website with modal windows]()
 
 HTML / 
 SCSS / 
